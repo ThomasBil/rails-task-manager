@@ -1,0 +1,12 @@
+<h1 class = title >Add a new task</h1>
+
+<div class="form_container" >
+  <%= simple_form_for(@task) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :details %>
+    <%= f.check_box :completed %>
+    <%= f.submit %>
+  <% end %>
+</div>
+
+<%= link_to "return", tasks_path, class:"btn btn-primary" %>

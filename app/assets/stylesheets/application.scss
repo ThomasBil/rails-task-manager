@@ -1,0 +1,33 @@
+@import "bootstrap/scss/bootstrap";
+
+.form_container {
+  margin: 0px 400px;
+}
+
+
+.title {
+  margin: 0px 400px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+
+
+.btn.btn-primary {
+    display: flex;
+    justify-content: center;
+    margin: 400px;
+    position: relative;
+    bottom: 340px;
+    color: white;
+}
+
+ul {
+  margin: 0px 400px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 20px;
+}

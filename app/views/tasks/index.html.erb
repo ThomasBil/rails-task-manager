@@ -1,0 +1,9 @@
+<h1 class = title>My Tasks</h1>
+
+<ul>
+  <% @tasks.each do |task|  %>
+    <li class="list-group list-group-flush"><%= link_to task.title, task_path(task.id)  %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Add an new task", tasks_new_path, class:"btn btn-primary" %>
